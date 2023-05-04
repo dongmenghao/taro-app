@@ -6,3 +6,6 @@ dist/
 .eslintrc.js
 .prettierrc.js
 .editorconfig
+.package-lock.json
+package.json
+pnpm-lock.yaml
