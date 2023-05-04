@@ -1,6 +1,10 @@
+import path from 'path'
 const config = {
   projectName: 'taro-app',
   date: '2023-5-4',
+  alias: {
+    '@': path.resolve(__dirname, '..', 'src'),
+  },
   designWidth: 375,
   deviceRatio: {
     640: 2.34 / 2,
@@ -11,6 +15,7 @@ const config = {
   sourceRoot: 'src',
   outputRoot: 'dist',
   plugins: [
+    '@tarojs/plugin-http',
     '@tarojs/plugin-html',
     ['@dcasia/mini-program-tailwind-webpack-plugin/dist/taro', {
       // options
