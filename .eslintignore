@@ -7,5 +7,6 @@ dist/
 .prettierrc.js
 .editorconfig
 .package-lock.json
+commitlint.config.js
 package.json
 pnpm-lock.yaml
