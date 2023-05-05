@@ -5,6 +5,10 @@ const config = {
   date: '2023-5-4',
   alias: {
     '@': path.resolve(__dirname, '..', 'src'),
+    '@/components': path.resolve(__dirname, '..', 'src/components'),
+    '@/pages': path.resolve(__dirname, '..', 'src/pages'),
+    '@/utils': path.resolve(__dirname, '..', 'src/utils'),
+    '@/assets': path.resolve(__dirname, '..', 'src/assets'),
   },
   designWidth: 375,
   deviceRatio: {
