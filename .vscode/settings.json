@@ -3,4 +3,5 @@
     "editor.codeActionsOnSave": {
         "source.fixAll": true
     },
+    "liveServer.settings.root": "/dist",
 }

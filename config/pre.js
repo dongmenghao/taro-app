@@ -1,7 +1,7 @@
 module.exports = {
   env: {
-    NODE_ENV: '"development"',
-    APP_ENV: '"dev"',
+    // NODE_ENV: '"production"',
+    APP_ENV: '"pre"',
   },
   defineConstants: {
   },
