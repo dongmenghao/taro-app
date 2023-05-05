@@ -3,6 +3,8 @@ module.exports = {
   parser: '@typescript-eslint/parser',
   plugins: ['@typescript-eslint'],
   extends: ['taro'],
+  globals: {
+  },
   rules: {
     // 在这里添加你的自定义规则
     // 'prettier/prettier': [

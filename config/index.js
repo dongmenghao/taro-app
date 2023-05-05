@@ -1,4 +1,5 @@
 import path from 'path'
+
 const config = {
   projectName: 'taro-app',
   date: '2023-5-4',

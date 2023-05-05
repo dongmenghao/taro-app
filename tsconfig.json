@@ -18,6 +18,7 @@
     "paths": {
       "*": ["types/*"],
       "src/*": ["src/*"],
+      "@/*": ["src/*"],
     },
     "rootDir": ".",
     "jsx": "react-jsx",
