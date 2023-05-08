@@ -18,7 +18,3 @@ declare namespace NodeJS {
   }
 }
 
-declare global {
-  type EnumsType = typeof import('../src/utils/Enums').default;
-  const Enums: EnumsType
-}

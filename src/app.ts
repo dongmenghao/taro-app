@@ -10,9 +10,10 @@ function App(props) {
   useEffect(() => {})
 
   // 对应 onShow
+
   useDidShow(() => {
     setGlobalData('user', { name: '张三' })
-    console.log(getAllGlobalData())
+    console.log(getAllGlobalData(), Enums.CustomerType)
   })
 
   // 对应 onHide
